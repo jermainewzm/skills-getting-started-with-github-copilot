@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
       messageDiv.classList.remove("hidden");
       console.error("Error signing up:", error);
     }
-  });
+   });
 
   // Initialize app
   fetchActivities();
